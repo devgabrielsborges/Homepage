@@ -1,0 +1,55 @@
+/* Styles for Personal Homepage */
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Hero Section */
+header {
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+    color: #212529;
+}
+
+header img {
+    border: 3px solid #007bff;
+}
+
+/* About Section */
+#about {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Projects Section */
+.card {
+    border: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    font-size: 0.9rem;
+}
