@@ -28,6 +28,13 @@ header img {
     border: 3px solid #007bff;
 }
 
+#hero {
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+    color: #212529;
+    padding: 3rem 0;
+    text-align: center;
+}
+
 /* About Section */
 #about {
     background-color: #f8f9fa;
